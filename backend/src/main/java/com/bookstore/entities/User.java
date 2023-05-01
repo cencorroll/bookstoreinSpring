@@ -41,21 +41,6 @@ public class User {
 	@Column(name = "password", nullable = false)
 	private String password;
 
-  @Column(name = "card_number" , unique = true)
-  private Long cardNumber;
-
-  @Column(name = "card_name" )
-  private String cardName;
-
-  @Column(name = "card_expiry" )
-  private String cardExpiry;
-
-  @Column(name = "card_cvv" )
-  private int cardCvv;
-
-  @Column(name = "card_type" )
-  private String cardType;
-
   @Column(name = "date_opened")
   private String dateOpened;
 
